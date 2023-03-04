@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* شكل لطيف للخط*/
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(home.jpg);/*طبقة شفافة علئ صورة*/
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(0,0,0,0.2);
+
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color:#fffdf9;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav li{ 
+display: inline-block; 
+list-style: none;
+padding: 0px 20px;
+}
+a,button{
+    font-size: 16px;
+    font-weight: 500;
+    color:#ffffff;
+    text-decoration:none ;
+    cursor: pointer;
+}
+button{
+    background: rgba(0,0,0,0.2);
+    border: 2px solid #ffcc33;
+    border-radius: 50px;/* شكل لطيف لمربع يعني دنحلي الاطراف  مقوسة وكيوت*/
+    padding: 9px 25px;
+}
+nav li a:hover{
+    color: #ffcc33;
+    transition: all 0.3s ease 0s;/* سرعة الانتقال*/
+}
+button:hover{
+    background-color: #ffcc33;
+    transition: all 0.3s ease 0s;
+}
+.tatatext
+{
+    width: 600px;
+    height: 280px;
+    text-align: center;
+    color: #ffffff;
+}
+.tatatext h1
+{
+    font-size: 20px;
+}
+
+.tatatext a{
+    text-decoration: none;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px; 
+    padding: 12px 30px;
+    border: 2px solid#ffcc33; /*ضبط اطالا عنصر هنا اعطينا لون */
+    }
+.tatatext a:hover{/*هذه ميزه تمكنه من تفاعل مع العنصر نضيف حركة وحركات كيوتتتتتتتتت */
+    background-color: #ffcc33;
+    transition: 0.6s;
+}
+
+.banner{
+    width: 600px;
+    height: 280px;
+    background: inherit;
+    position: absolute;/* موضع العنصر*/
+    overflow: hidden;/*  يعني فد خاصية ترتيبية اخفاء  المحتوئ زائد */
+    top: 50%;
+    left: 22%;
+    border-radius: 5px;
+    transform: translate(-50%,-50%);/*من داخلي ماوس ويتغيير لون ..X,Y حركة لطيفة سريعه موشنن */
+}
